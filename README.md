@@ -27,7 +27,6 @@ classes_lowconf = ["Ind"]
 With conditions:
 epochs=10, lr=0.01, num_workers=0, )
 
-
 Classes second run:
 # ===============================
 # CLASSES (ONLY PRESENT IN 3 CORRECTED SLIDES)
@@ -36,5 +35,14 @@ classes_of_interest = [
     "Lyc", "Spo", "Rob", "Poa", "Aln", "Fag", "Dry", "Ost", "Cyp",
     "Pch", "Ile", "For", "Lig", "Cor", "Glo", "Pih", "Pin", "Crc",
     "Phi", "Jug", "Aqu", "Sal", "Che", "Ole", "Sph", "Spa", "Car",
+    "Ulm", "Art", "Rod", "Pic", "Tas", "Din", "Tub", "Hyp", "Ros",
+    "Bet", "Cas", "Rum", "Frx", "Med", "Gal", "Api", "Oen", "Fra"
+]
+With conditions:
+
+    epochs=4,   # small number of epochs for 3 slides
+    lr=0.003,   # gentle fine-tuning
+    num_workers=0,
+)
     "Ulm", "Art", "Rod", "Pic", "Tas", "Din", "Tub", "Hyp", "Ros",
     "Bet", "Cas", "Rum", "Frx", "Med", "Gal", "Api", "Oen", "Fra"
