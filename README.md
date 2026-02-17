@@ -6,24 +6,25 @@ The scripts have been tested and checked for consistency, but might not work or 
 
 With Merging:
 ===== GLOBAL SUMMARY =====
-Pairs evaluated        : 1664
+Pairs evaluated        : 1189
 IoU threshold          : 0.4
 Confidence threshold   : None
-TP: 410, FP: 314, FN: 126
+TP: 285, FP: 195, FN: 75
 
 GLOBAL METRICS
-Precision : 0.566
-Recall    : 0.765
-F1-score  : 0.651
+Precision : 0.594
+Recall    : 0.792
+F1-score  : 0.679
+
 
 Without Merging:
 ===== GLOBAL SUMMARY =====
-Pairs evaluated        : 1664
+Pairs evaluated        : 1189
 IoU threshold          : 0.4
 Confidence threshold   : None
-TP: 422, FP: 336, FN: 114
+TP: 294, FP: 210, FN: 66
 
 GLOBAL METRICS
-Precision : 0.557
-Recall    : 0.787
-F1-score  : 0.652
+Precision : 0.583
+Recall    : 0.817
+F1-score  : 0.681
